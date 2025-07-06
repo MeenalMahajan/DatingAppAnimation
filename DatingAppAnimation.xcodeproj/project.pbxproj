@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		FCE3F3D12E1AB47A000E9EA7 /* Vortex in Frameworks */ = {isa = PBXBuildFile; productRef = FCE3F3D02E1AB47A000E9EA7 /* Vortex */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		FC96465D2E1294180016735E /* DatingAppAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingAppAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE3F3D12E1AB47A000E9EA7 /* Vortex in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = DatingAppAnimation;
 			packageProductDependencies = (
+				FCE3F3D02E1AB47A000E9EA7 /* Vortex */,
 			);
 			productName = DatingAppAnimation;
 			productReference = FC96465D2E1294180016735E /* DatingAppAnimation.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = FC9646542E1294180016735E;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FCE3F3CF2E1AB47A000E9EA7 /* XCRemoteSwiftPackageReference "Vortex" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = FC96465E2E1294180016735E /* Products */;
 			projectDirPath = "";
@@ -320,6 +329,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FCE3F3CF2E1AB47A000E9EA7 /* XCRemoteSwiftPackageReference "Vortex" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/Vortex";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FCE3F3D02E1AB47A000E9EA7 /* Vortex */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCE3F3CF2E1AB47A000E9EA7 /* XCRemoteSwiftPackageReference "Vortex" */;
+			productName = Vortex;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FC9646552E1294180016735E /* Project object */;
 }
