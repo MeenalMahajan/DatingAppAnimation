@@ -4,6 +4,12 @@ A beautiful **SwiftUI animation project** showcasing an **interactive dating car
 
 ---
 
+> 📽️ **Reference & Inspiration:**  
+> This implementation is inspired by [@appbeyond on YouTube](https://www.youtube.com/@appbeyond).  
+> Check out their channel for excellent SwiftUI tutorials and iOS development tips!
+
+---
+
 ## 🚀 Why You Should Try This
 
 - Learn **interactive swipe interfaces** with layered animations in SwiftUI.
